@@ -5,6 +5,10 @@ import { DrawerParamList } from '../navigation/DrawerNavigator';
 
 // Dentro da pasta "screens" crie um arquivo para a tela "HomeScreen.tsx"
 
+// Na raiz do projeto crie uma pasta "navigation" e outra pasta "screens"
+// Nelas serao inseridos os codigos de navegacao do APP e as telas.
+
+
 
 type Props = DrawerScreenProps<DrawerParamList, 'Home'>;
 
