@@ -4,7 +4,7 @@ import React, { useCallback, useState } from 'react';
 import { ActivityIndicator, Button, StyleSheet, Text, TextInput, View } from 'react-native';
 import { DrawerParamList } from '../navigation/DrawerNavigator';
 
-type Props = DrawerScreenProps<DrawerParamList, 'CreateCategory'>;
+type Props = DrawerScreenProps<DrawerParamList, 'CreateContractTypes'>;
 
 const CreateContractTypeScreen = ({ navigation }: Props) => {
 
