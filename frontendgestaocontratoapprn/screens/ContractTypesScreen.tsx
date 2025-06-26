@@ -39,7 +39,7 @@ const ContractTypesScreen = ({ navigation }: Props) => {
     setContractTypes(prev => prev.filter(c => c.id !== id));
   };
 
-  const renderItem = ({ item }: { item: Category }) => (
+  const renderItem = ({ item }: { item: ContractType }) => (
     <View style={styles.card}>
       <Text style={styles.name}>{item.name}</Text>
       <Text style={styles.description}>{item.description}</Text>
